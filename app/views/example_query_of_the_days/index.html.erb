@@ -1,0 +1,11 @@
+<h1>Example</h1>
+
+<h2>With different views:</h2>
+<div>
+  <%= render @query_of_the_day %>
+</div>
+
+<h2>With a specific view:</h2>
+<div>
+  <%= render 'query_of_the_day', day_query: @query_of_the_day %>
+</div>
